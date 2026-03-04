@@ -1,3 +1,2 @@
-hello git
-this is dev branch
-just for test
+Hello github and gitee!
+Change user.email
