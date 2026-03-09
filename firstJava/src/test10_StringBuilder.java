@@ -53,6 +53,7 @@ public class test10_StringBuilder {
         StringBuilder sb3 = new StringBuilder(100);
         sb3.append("INSERT INTO ")
                 .append(table)
+
                 .append(" (")
                 .append(fields[0])
                 .append(", ")
