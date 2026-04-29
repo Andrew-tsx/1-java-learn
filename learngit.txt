@@ -1,2 +1,0 @@
-Hello github and gitee!
-Change user.email
