@@ -9,7 +9,7 @@ package test.practice.week1;
 /**
  * 包名称： test.practice.week1
  * 类名称：VariablePractice
- * 类描述：TODO
+ * 类描述：练习
  * 创建人：@author Andrew
  * 创建时间：2026-04-29 11:18
  *

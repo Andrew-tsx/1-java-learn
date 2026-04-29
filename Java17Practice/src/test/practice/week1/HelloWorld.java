@@ -2,7 +2,7 @@ package test.practice.week1;
 
 /**
  * 你的第一个Java程序！
- * 作者：Andrew
+ * 作者：GLM-4.7
  * 日期：2026-04-29
  */
 public class HelloWorld {

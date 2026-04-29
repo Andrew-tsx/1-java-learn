@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  * 包名称： test.practice.week1
  * 类名称：ConditionPractice
- * 类描述：TODO
+ * 类描述：练习条件控制
  * 创建人：@author Andrew
  * 创建时间：2026-04-29 13:59
  *
