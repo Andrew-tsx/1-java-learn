@@ -45,6 +45,7 @@ public class Calculator {
     public void showResult(int r){
         if(this.flag){
             System.out.println("除数不能为零！已将该变量结果重置为零，请重新输入。");
+            this.flag = false;
         }else{
             System.out.println("计算结果为："+r);
         }

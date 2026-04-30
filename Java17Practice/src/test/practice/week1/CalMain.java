@@ -18,6 +18,9 @@ public class CalMain {
     public static void main(String[] args){
         Calculator cal = new Calculator();
 
+        int r6 = cal.divide(5,0);
+        cal.showResult(r6);
+
         int r1 = cal.add(3,4);
         cal.showResult(r1);
 
@@ -32,9 +35,6 @@ public class CalMain {
 
         int r5 = cal.divide(1,5);
         cal.showResult(r5);
-
-        int r6 = cal.divide(5,0);
-        cal.showResult(r6);
 
     }
 }
