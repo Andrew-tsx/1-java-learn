@@ -1,0 +1,15 @@
+debug: true
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb  # 使用 H2 内存数据库，数据存在内存中，程序停止就消失
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true           # 启用 H2 数据库的 Web 控制台，方便查看数据
+  sql:
+    init:
+      mode: always            # 每次启动时都执行初始化脚本
+      schema-locations: classpath:schema.sql  # 指定建表 SQL 文件的位置
+      data-locations: classpath:data.sql      # 指定插入模拟数据的 SQL 文件位置
